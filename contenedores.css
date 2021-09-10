@@ -1,0 +1,91 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+div#general{
+    /*margin-top separa el espacio en la parte de arriba*/
+    width: 900px;
+    height: 1200;
+    background-color: white;
+}
+div#cla1{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.61);
+}
+div#cla2{
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.76);
+}
+div#cla3{
+
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.63);
+}
+div#cla4{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color:rgba(47, 231, 255, 0.705);
+}
+div#cla5{
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.596);
+}
+div#cla6{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.63);
+}
+div#cla7{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.568);
+}
+div#cla8{
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.575);
+}
+div#cla9{ 
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.541);
+}
+div#cla10{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.541);
+}
+div#cla11{
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.527);
+}
+div#cla12{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(47, 231, 255, 0.459);
+}
+/* css de los class div de parrafo*/
+.alineacion{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 170%;
+}
+.parrafo{
+ border: solid rgba(5, 5, 5, 0.952); 
+}
+/*poniendo un un borde de radio de 10px en cada imagen den div*/
+.imagen{
+    border: solid rgba(5, 5, 5, 0.89);   
+}

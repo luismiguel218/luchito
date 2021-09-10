@@ -1,0 +1,62 @@
+/*pie de página*/
+footer 
+ {
+    padding-bottom: 0.4px;
+    background-color: rgb(187, 99, 99);
+
+ } 
+/*contenido de pie de página*/
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 30px;
+ }
+
+/*Contacta con nosotros*/
+.contact-us {
+    width: 80%;
+    color: black;
+ }
+
+/*marca*/
+.brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 30px;
+ }
+
+.brandp {
+    font-weight: 400;
+ }
+
+/*medios de comunicación social*/
+.social-media {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+/*icono de redes sociales*/
+.social-media-icon {
+    margin-left: 5px;
+    width: 70px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 40%;
+    color: #fff;
+ }
+
+/*icono de redes sociales: desplazarse*/
+.social-media-icon:hover {
+    transform: translatex(-20%);
+    background:black;
+ }
+
+/*icono de redes sociales: desplazarse*/
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+ }

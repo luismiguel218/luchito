@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+    crossorigin="anonymous">
+    <!-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- codigo css del  slider -->
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="contenedores.css">    
+</head>
+<style>
+
+body{
+       background-color: rgb(221, 136, 136);
+}
+.container-igo{
+
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-great-awesome-orange-background-design-image_459656.jpg);   
+}
+
+</style>
+<body>
+         
+    <center> 
+           <!--creacion de la cabecera de la pagina html5-->
+        <div class="container-igo" >
+
+            <h1> <i class="fas fa-store"></i> TIENDA DON PEPITO  <i class="fas fa-store"></i> </h1>
+
+            <h4>  <i class="fas fa-clock"></i>  ATENCION LAS 24 HORAS  </h4>
+
+           <h4> <i class="fas fa-motorcycle"></i> Delivery Gratis</h4><br>
+             
+        </div>
+
+       <!--creacion del slider en htlm5 creando un contenedor para las imagenes con sus respectivo id y clases -->
+      <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="imagenes/descuento1.png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta2.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta3.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta6.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta7.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta8.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta9.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta13.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta14.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta15.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta16.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta17.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta18.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta19.jpg" alt="" class="slider__img">
+            </div>
+       </div>
+
+        <div class="slider_btn slider_btn--rigth" id="btn-rigth"><i class="fas fa-chevron-right" ></i></div>
+        <div class="slider_btn slider_btn--left" id="btn-left"><i class="fas fa-chevron-left" ></i></div>
+     </div>
+
+ <!-- codigo script del  slider -->
+ <script src="slider.js"></script> 
+
+
+         <!-- creamos un pequeño container para poner los productos disponibles enla tienda -->
+    <div class="container_pepe">
+        <table>
+            <!--  tr= define una fila de celdas en una tablero-->
+     <br>  <tr style="background-color: darkgoldenrod;font-size: 20px;">
+            <th> <i class="fas fa-shopping-basket"></i> PRODUCTOS DISPONIBLES <i class="fas fa-shopping-basket"></i></th> 
+            <br></tr>
+         </table><br><br>
+    </div>
+
+    <!--creamos div con fondos de los productos-->
+        <center> 
+       
+    <div class="" id="general">
+        
+                <!--creamos 2 div(cajas) uno para la imagen y el otro para el parrafo y su precio--> 
+              <div id="cla1" > 
+
+              <img class="imagen"  src="imagenes2/pera.jpg" width="300" height="210px" />
+               
+              <div class="parrafo">  
+                <p class="alineacion"> PERA 
+                   <br> precio  S/. 1.00 </p>
+               </div>
+
+            </div>
+                
+           <div id="cla2" > 
+               <img class="imagen" src="imagenes2/tomate.jpg" width="300" height="210px" /> 
+               <div class="parrafo">  
+                <p class="alineacion"> TOMATE 
+                    <br> precio  S/. 1.20 </p>
+               </div>
+    
+           </div>
+    
+           <div id="cla3"  > 
+               <img class="imagen" src="imagenes2/maiz.jpg" width="300" height="210px" />
+               <div class="parrafo">  
+                <p class="alineacion"> MAIZ 
+                    <br>precio  S/. 3.00</p>
+               </div> 
+
+           </div>
+    
+            <div id="cla4">
+            <img class="imagen" src="imagenes2/brocoli.jpg" width="300" height="210px" />
+            <div class="parrafo">  
+                <p class="alineacion"> BROCOLI 
+                    <br>precio  S/. 1.80</p>             
+               </div>
+            </div>
+     
+            <div id="cla5"> 
+                 <img  class="imagen" src="imagenes2/lechuga.jpg" width="300" height="210px" /> 
+                 <div class="parrafo">  
+                    <p class="alineacion"> LECHUGA 
+                        <br>precio  S/. 1.30 </p>      
+                   </div>
+             </div>
+      
+             <div id="cla6">  
+                 <img class="imagen" src="imagenes2/patata.jpg" width="300" height="210px" />
+                 <div class="parrafo">  
+                 <p class="alineacion"> PAPA 
+                    <br>precio  S/. 1.50</p>
+                </div>
+             </div>
+     
+             <div id="cla7"> 
+                 <img class="imagen" src="imagenes2/fresas.jpg" width="300" height="210px" /> 
+                 <div class="parrafo">  
+                    <p class="alineacion"> FRESAS 
+                        <br>precio  S/. 2.50 </p>
+                    
+                  </div>
+
+             </div>
+     
+             <div id="cla8">  
+                 <img class="imagen" src="imagenes2/zapallo.jpg" width="300" height="210px" />
+                 <div class="parrafo">  
+                    <p class="alineacion"> ZAPALLO 
+                        <br>precio  S/. 3.50  </p>
+                   </div>
+             </div>
+     
+             <div id="cla9">  
+                 <img class="imagen" src="imagenes2/uva.jpg" width="300" height="210px" />
+                 <div class="parrafo">  
+                    <p class="alineacion"> UVA 
+                        <br>precio  S/. 4.00  </p>
+                   </div>
+             </div>
+     
+             <div  id="cla10">  
+                 <img  class="imagen" src="imagenes2/platano.jpg" width="300" height="210px" />
+                 <div class="parrafo">  
+                    <p class="alineacion"> PLÁTANO 
+                        <br>precio  S/. 1.20  </p>              
+                   </div>
+    
+             </div>
+     
+             <div id="cla11"> 
+                 <img class="imagen" src="imagenes2/mandarina.jpg" width="300" height="210px" />
+                 <div class="parrafo">  
+                    <p class="alineacion"> MANDARINA 
+                        <br>precio  S/. 2.20  </p>   
+                   </div> 
+             </div>
+     
+             <div id="cla12"> 
+                 <img class="imagen" src="imagenes2/manzana.jpg" width="300" height="210px" />
+                 <div class="parrafo">  
+                    <p class="alineacion"> MANZANA 
+                        <br>precio  S/.1.60 </p>
+                   </div> 
+             </div>
+        </div>
+
+    </center>
+    
+
+    <!--redirigir el html creado-->
+    <br><div class="container_lp" > 
+
+    <a  href="tabla.html"><i class="fas fa-shopping-cart"></i>  SACAR EL TOTAL DE LOS PRODUCTOS A COMPRAR <i class="fas fa-shopping-cart"></i> </a>
+
+   </div>
+          
+ <!--creamos un footer(pie de pagina)-->
+
+ 
+ <br><br> <footer id="contacto">
+
+            <div class="container-footer_content">
+            <div class="contact-us">
+               <br> <h2 class="brand">"TIENDA DON PEPITO" </h2>
+                <p> <i class="fas fa-map-marker-alt"></i>  Huánuco-Perú  <i class="fas fa-map-marker-alt"></i></p>
+                <p>  <i class="fas fa-phone-alt"></i> #987234345 </p>
+            </div>
+           
+            <div class="social-media">
+                <a href="https://www.facebook.com/Tienda-Don-Pepito-100202305736465/?ref=page_internal&_rdc=1&_rdr" class="social-media-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/tienda_don_pepito/?utm_medium=copy_link" class="social-media-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>   
+        </div>
+
+      </footer>
+</center>
+</body>
+</html>

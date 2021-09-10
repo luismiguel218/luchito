@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: cadetblue;
+    }
+</style>
+<body>
+    <script src="tablero.js"></script>
+    <center>
+       <div class="container">
+
+        <table>          
+                <tr style="background-color: peru;" id="tr">
+
+                      <th style="width: 100px;">PRODUCTO</th>
+                      <th> PRECIO x kg</th>
+                      <th> CANTIDAD </th>                  
+                      <th> PRECIO PARCIAL</th>
+
+                </tr>
+                      
+                     <!-- imput = recibe datos  -->
+                     <!-- type=escribe"number" y toma un min valor desde 0 para adelante  y le las un valor con value-->
+                     <!-- dislabled = inhabilita la edicion de la celda -->
+
+                <tr>
+                    <td> Pera</td>
+                    <td><input type="number" min="0" value="1.00" id="precio_pera" disabled ></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_pera"></td>
+                    <td><input   id="precio_parcial_pera" disabled></td>
+                </tr>
+
+                <tr>
+                    <td>Tomate</td>
+                    <td><input type="number" min="0" value="1.20"  id="precio_tomate" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_tomate"></td>
+                    <td><input type="text" id="precio_parcial_tomate" disabled></td>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Maíz</td>
+                    <td><input type="number" min="0" value="3.00"  id="precio_maiz" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_maiz"></td>
+                    <td><input type="text"  id="precio_parcial_maiz" disabled></td>
+                </tr>
+
+
+                <tr>
+                    <td>Brócoli</td>
+                    <td><input type="number" min="0" value="1.80" id="precio_brocoli" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_brocoli"></td>
+                    <td><input type="text"  id="precio_parcial_brocoli" disabled></td>
+                </tr>
+
+                <tr>
+                    <td>Lechuga</td>
+                    <td><input type="number" min="0" value="1.30"  id="precio_lechuga" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_lechuga"></td>
+                    <td><input type="text"  id="precio_parcial_lechuga" disabled></td>
+                </tr>
+
+                <tr>
+                    <td>Papa</td>
+                    <td><input type="number" min="0" value="1.50"  id="precio_papa" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_papa"></td>
+                    <td><input type="text"  id="precio_parcial_papa" disabled></td>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Fresa</td>
+                    <td><input type="number" min="0" value="2.50"  id="precio_fresa" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_fresa"></td>
+                    <td><input type="text"  id="precio_parcial_fresa" disabled></td>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Zapallo</td>
+                    <td><input type="number" min="0" value="3.50"  id="precio_zapallo" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_zapallo"></td>
+                    <td><input type="text"  id="precio_parcial_zapallo" disabled></td>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Uva</td>
+                    <td><input type="number" min="0" value="4.00"  id="precio_uva" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_uva"></td>
+                    <td><input type="text"  id="precio_parcial_uva" disabled></td>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Plátano</td>
+                    <td><input type="number" min="0" value="1.20"  id="precio_platano" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_platano"></td>
+                    <td><input type="text"  id="precio_parcial_platano" disabled></td>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Mandarina</td>
+                    <td><input type="number" min="0" value="2.20"  id="precio_mandarina" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_mandarina"></td>
+                    <td><input type="text"  id="precio_parcial_mandarina" disabled></td>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Manzana</td>
+                    <td><input type="number" min="0" value="1.60"  id="precio_manzana" disabled></td>
+                    <td><input type="number" min="0" value="0"  id="cantidad_manzana"></td>
+                    <td><input type="text"  id="precio_parcial_manzana" disabled></td>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th><input type="button"  value="TOTAL" onclick="total()"></th>
+                    <br><th></th>
+                    <th></th>
+                    <th><input type="text"  id="total" disabled></th>
+                </tr>
+        </table>
+    </div>
+<br> <button id="boton-comprar"  onclick="compra()">ingrese sus datos para Realizar la compra Virtualmente</button>
+         
+    </center>   
+</body>
+</html>
